@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-gray-100 min-h-screen p-6">
+    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-blue-50 to-slate-200 py-10 px-4">
       <div className="max-w-4xl mx-auto space-y-6">
         <Header />
         <About />
