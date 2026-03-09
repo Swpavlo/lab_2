@@ -1,10 +1,8 @@
 function Education() {
   return (
-    <section>
-      <h2>Освіта</h2>
-      <ul>
-        <li>Львівська політехніка — спеціальність 125 "Кібербезпека"</li>
-      </ul>
+    <section className="bg-white p-6 rounded-xl shadow-md">
+      <h2 className="text-2xl font-bold mb-3">Освіта</h2>
+      <p>Львівська політехніка — спеціальність 125 "Кібербезпека"</p>
     </section>
   );
 }

@@ -1,15 +1,16 @@
 function Footer() {
   return (
-    <footer>
-      <h2>Контакти</h2>
-      <p>Електронна пошта: pavlo@gmail.com</p>
+    <footer className="bg-gray-200 p-6 rounded-xl text-center shadow-md">
+      <h2 className="text-xl font-bold mb-2">Контакти</h2>
+      <p>Email: pavlo@gmail.com</p>
       <p>Телефон: +380632532487</p>
-      <p>
-        GitHub: 
-        <a href="https://github.com/Swpavlo/lab_2" target="_blank">
-          https://github.com/Swpavlo/lab_2
-        </a>
-      </p>
+
+      <a
+        href="https://github.com/Swpavlo/lab_2"
+        className="text-blue-600 hover:underline"
+      >
+        GitHub репозиторій
+      </a>
     </footer>
   );
 }
