@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Мій профіль</h1>
+        <button id="theme-toggle">Змінити тему вручну</button>
+    </header>
+
+    <main>
+        <section id="comments-section">
+            <h2>Відгуки роботодавців</h2>
+            <div id="comments-container">Завантаження відгуків...</div>
+        </section>
+    </main>
+
+    <div id="modal" class="modal-hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            <h2>Зворотній зв'язок</h2>
+            <form action="https://formspree.io/f/mbdpqewe" method="POST">
+                <input type="text" name="name" placeholder="Ваше ім'я" required>
+                <input type="email" name="email" placeholder="Ваш Email" required>
+                <input type="tel" name="phone" placeholder="Номер телефону" required>
+                <textarea name="message" placeholder="Ваше повідомлення" rows="4"></textarea>
+                <button type="submit" id="send-btn">Відправити</button>
+            </form>
+        </div>
+    </div>
+
+    <footer id="main-footer">
+        <p>&copy; 2026 Лабораторна робота</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
